@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A S Impashree — Information Science Engineering student portfolio (AI/ML, Data Science, IoT)." />
+    <title>A S Impashree | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">Impashree</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+            <span class="nav__toggleBars" aria-hidden="true"></span>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <div class="nav__links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="chip">Engineering Student • AI/ML • IoT</p>
+            <h1 class="hero__title hero__title--accent">A S Impashree</h1>
+            <p class="hero__subtitle">
+              Enthusiastic Information Science Engineering student with a strong academic record and interest in building
+              data-driven AI/ML and IoT solutions.
+            </p>
+
+            <div class="hero__cta hero__cta--trio">
+              <a class="btn btn--primary btn--pill" href="#" data-link="github" target="_blank" rel="noreferrer">
+                View GitHub
+              </a>
+              <a class="btn btn--ghost btn--pill" href="#projects">See Projects</a>
+              <a class="btn btn--ghost btn--pill" href="#contact">Hire / Connect</a>
+            </div>
+          </div>
+
+          <div class="hero__card" aria-label="Highlights">
+            <div class="stats">
+              <div class="stat">
+                <div class="stat__num" data-count="4">0</div>
+                <div class="stat__label">Academic projects</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num" data-count="1">0</div>
+                <div class="stat__label">Internship</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num" data-count="6">0</div>
+                <div class="stat__label">Core technologies</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Focus Areas</h2>
+              <ul class="pillList" aria-label="Focus areas">
+                <li>AI/ML</li>
+                <li>Data Science</li>
+                <li>IoT</li>
+                <li>Python</li>
+                <li>Model training</li>
+                <li>Monitoring systems</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="hero__bg" aria-hidden="true"></div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head">
+            <h2>About</h2>
+            <p>
+              Strong in problem-solving, teamwork, and adaptability. Interested in starting a career in Data Science,
+              AI/ML, and IoT solutions.
+            </p>
+          </div>
+
+          <div class="grid2">
+            <div class="card card--soft">
+              <h3>Professional Summary</h3>
+              <p>
+                Enthusiastic Information Science Engineering student with a strong academic record and passion for emerging
+                technologies. Hands-on experience with Python and machine learning tools, and practical exposure to
+                real-world problem solving through internship and projects.
+              </p>
+            </div>
+
+            <div class="card card--soft">
+              <h3>What I build</h3>
+              <ul class="list">
+                <li>AI/ML prototypes for prediction and classification</li>
+                <li>IoT monitoring solutions with sensors + cloud dashboards</li>
+                <li>Automation projects that improve efficiency and usability</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="projects">
+        <div class="container">
+          <div class="section__head">
+            <h2>Featured Projects</h2>
+            <p>Selected academic projects focused on IoT monitoring and AI/ML automation.</p>
+          </div>
+
+          <div class="projectGrid">
+            <article class="projectCard">
+              <div class="projectCard__banner projectCard__banner--violet" aria-hidden="true"></div>
+              <div class="projectCard__body">
+                <div class="projectCard__top">
+                  <div>
+                    <h3>Air Quality Monitoring System</h3>
+                    <p class="muted">IoT + ML-based real-time monitoring</p>
+                  </div>
+                  <span class="badge">Featured</span>
+                </div>
+
+                <p class="projectCard__desc">
+                  Built using ESP32, MQ135, and DHT11 sensors to measure CO₂, temperature, and humidity. Streamed data to
+                  ThingSpeak for real-time monitoring, then applied Logistic Regression and Random Forest to predict
+                  air-quality trends.
+                </p>
+
+                <ul class="chips" aria-label="Tech stack">
+                  <li>ESP32</li>
+                  <li>MQ135</li>
+                  <li>DHT11</li>
+                  <li>ThingSpeak</li>
+                  <li>Scikit-learn</li>
+                </ul>
+
+                <div class="projectCard__actions">
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open live demo (add link)">Live Demo</a>
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open GitHub repo (add link)">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectCard">
+              <div class="projectCard__banner projectCard__banner--cyan" aria-hidden="true"></div>
+              <div class="projectCard__body">
+                <div class="projectCard__top">
+                  <div>
+                    <h3>Atmospheric Gas Analyzer</h3>
+                    <p class="muted">Gas detection with cloud visualization</p>
+                  </div>
+                  <span class="badge badge--soft">IoT</span>
+                </div>
+
+                <p class="projectCard__desc">
+                  Designed a system using MQ135 and MQ3 sensors to track gas levels and temperature. Integrated LCD output
+                  and an IoT platform for cloud-based visualization.
+                </p>
+
+                <ul class="chips" aria-label="Tech stack">
+                  <li>Arduino</li>
+                  <li>MQ135</li>
+                  <li>MQ3</li>
+                  <li>LCD</li>
+                  <li>IoT Dashboard</li>
+                </ul>
+
+                <div class="projectCard__actions">
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open report (add link)">Report</a>
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open GitHub repo (add link)">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectCard">
+              <div class="projectCard__banner projectCard__banner--mint" aria-hidden="true"></div>
+              <div class="projectCard__body">
+                <div class="projectCard__top">
+                  <div>
+                    <h3>Eye Gesture Control System</h3>
+                    <p class="muted">Hands-free home automation</p>
+                  </div>
+                  <span class="badge badge--soft">AI/ML</span>
+                </div>
+
+                <p class="projectCard__desc">
+                  Controlled home electronics through eye movements to enable accessible, hands-free interaction and
+                  improved usability for daily tasks.
+                </p>
+
+                <ul class="chips" aria-label="Tech stack">
+                  <li>Python</li>
+                  <li>ML</li>
+                  <li>Automation</li>
+                </ul>
+
+                <div class="projectCard__actions">
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open demo (add link)">Demo</a>
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open GitHub repo (add link)">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectCard">
+              <div class="projectCard__banner projectCard__banner--sunset" aria-hidden="true"></div>
+              <div class="projectCard__body">
+                <div class="projectCard__top">
+                  <div>
+                    <h3>Automatic Car Parking System</h3>
+                    <p class="muted">Sensor-driven parking optimization</p>
+                  </div>
+                  <span class="badge badge--soft">Automation</span>
+                </div>
+
+                <p class="projectCard__desc">
+                  Built a parking solution that improves space utilization using sensors and control logic for automated
+                  guidance, reducing manual effort.
+                </p>
+
+                <ul class="chips" aria-label="Tech stack">
+                  <li>Sensors</li>
+                  <li>Control logic</li>
+                  <li>Automation</li>
+                </ul>
+
+                <div class="projectCard__actions">
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open report (add link)">Report</a>
+                  <a class="btn btn--ghost btn--sm" href="#" aria-label="Open GitHub repo (add link)">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2>Skills</h2>
+            <p>Tools and strengths I use to build, analyze, and deliver solutions.</p>
+          </div>
+
+          <div class="card skillsPanel">
+            <div class="skillsShowcase">
+              <div class="skillsShowcase__title">
+                <h3>Technical <span>Skills</span></h3>
+              </div>
+
+              <div class="skillsRows" aria-label="Technical skills cards">
+                <div class="skillsRow skillsRow--4">
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-python-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">Python</div>
+                  </div>
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-mysql-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">SQL</div>
+                  </div>
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-java-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">Java</div>
+                  </div>
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-tensorflow-original colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">TensorFlow</div>
+                  </div>
+                </div>
+
+                <div class="skillsRow skillsRow--3">
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-scikitlearn-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">Scikit-learn</div>
+                  </div>
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-pandas-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">Pandas</div>
+                  </div>
+                  <div class="skillCard">
+                    <div class="skillCard__icon"><i class="devicon-numpy-plain colored" aria-hidden="true"></i></div>
+                    <div class="skillCard__name">NumPy</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsPanel__foot">
+              <h4>Certifications</h4>
+              <ul class="certPills" aria-label="Certifications">
+                <li>Machine Learning Fundamentals (Infosys)</li>
+                <li>Operating System Fundamentals (NPTEL)</li>
+                <li>Enterprise Data Science in Practice (IBM)</li>
+                <li>Data Analytics with Python (NPTEL)</li>
+                <li>Cybersecurity Fundamentals (IBM)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card card--soft mt">
+            <h3>Soft Skills</h3>
+            <ul class="pillList" aria-label="Soft skills">
+              <li>Communication</li>
+              <li>Adaptability</li>
+              <li>Teamwork & Collaboration</li>
+              <li>Problem-Solving</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section section--alt" id="experience">
+        <div class="container">
+          <div class="section__head">
+            <h2>Experience</h2>
+            <p>Hands-on work focused on AI/ML concepts, projects, and evaluation.</p>
+          </div>
+
+          <article class="timelineItem">
+            <div class="timelineItem__dot" aria-hidden="true"></div>
+            <div class="timelineItem__content">
+              <div class="timelineItem__top">
+                <h3>Airobosoft Products and Services LLP, Bangalore</h3>
+                <span class="timelineItem__date">02/2023 – 06/2023</span>
+              </div>
+              <p class="muted">Intern — Artificial Intelligence and Machine Learning</p>
+              <ul class="list">
+                <li>Gained foundational knowledge of AI concepts and applications.</li>
+                <li>Worked on AI/ML projects applying ML algorithms to solve real-world problems.</li>
+                <li>Developed skills in data preprocessing, model training, and performance evaluation.</li>
+                <li>Hands-on experience with Python, TensorFlow/Scikit-learn, and AI development tools.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section__head">
+            <h2>Education</h2>
+            <p>Academic background and performance highlights.</p>
+          </div>
+
+          <div class="cards2">
+            <article class="eduCard">
+              <h3>New Horizon College of Engineering, Bangalore</h3>
+              <p class="muted">Bachelor of Engineering — Information Science</p>
+              <div class="eduCard__meta">
+                <span>2023 – 2026 (Current)</span>
+                <span><strong>CGPA:</strong> 8.65</span>
+              </div>
+            </article>
+
+            <article class="eduCard">
+              <h3>M S Ramaiah Polytechnic, Bangalore</h3>
+              <p class="muted">Diploma — Computer Science and Engineering</p>
+              <div class="eduCard__meta">
+                <span>2020 – 2023</span>
+                <span><strong>CGPA:</strong> 8.92</span>
+              </div>
+            </article>
+
+            <article class="eduCard">
+              <h3>Navjyothi Public School, Bangalore</h3>
+              <p class="muted">SSLC</p>
+              <div class="eduCard__meta">
+                <span>2010 – 2020</span>
+                <span><strong>Score:</strong> 72.32%</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <div class="connect">
+            <div class="connect__head">
+              <h2>Let’s <span>Connect</span></h2>
+              <p>Have an opportunity or collaboration in mind? Send me a message — it will land directly in my inbox.</p>
+            </div>
+
+            <form class="connectForm" id="contactForm" novalidate>
+              <label class="sr-only" for="contactName">Your Name</label>
+              <input id="contactName" name="name" autocomplete="name" placeholder="Your Name" required />
+
+              <label class="sr-only" for="contactEmail">Your Email</label>
+              <input
+                id="contactEmail"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <label class="sr-only" for="contactMessage">Your Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button class="connectBtn" type="submit">Send Message</button>
+
+              <div class="connectIcons" aria-label="Contact links">
+                <a class="iconBtn" href="mailto:impashree2624@gmail.com" aria-label="Email">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 7.5c0-1 0.8-1.8 1.8-1.8h12.4c1 0 1.8 0.8 1.8 1.8v9c0 1-0.8 1.8-1.8 1.8H5.8c-1 0-1.8-0.8-1.8-1.8v-9Z"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      opacity=".9"
+                    />
+                    <path
+                      d="M5.5 8.3 12 12.7l6.5-4.4"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      opacity=".6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a class="iconBtn" href="#" data-link="github" target="_blank" rel="noreferrer" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M12 2.8c-5.1 0-9.2 4.1-9.2 9.2 0 4 2.6 7.5 6.1 8.7.4.1.6-.2.6-.4v-1.6c-2.5.5-3-1.1-3-1.1-.4-1-.9-1.3-.9-1.3-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.4.7.1-.5.3-.9.5-1.1-2-.2-4.1-1-4.1-4.6 0-1 .4-1.9 1-2.6-.1-.2-.4-1.2.1-2.5 0 0 .8-.3 2.6 1 .7-.2 1.5-.3 2.3-.3.8 0 1.6.1 2.3.3 1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.3.1 2.5.6.7 1 1.6 1 2.6 0 3.6-2.1 4.4-4.1 4.6.3.3.6.9.6 1.8v2.6c0 .2.2.5.6.4 3.5-1.2 6.1-4.7 6.1-8.7 0-5.1-4.1-9.2-9.2-9.2Z"
+                      fill="currentColor"
+                      opacity=".9"
+                    />
+                  </svg>
+                </a>
+                <a class="iconBtn" href="#" data-link="linkedin" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M6.6 6.7a2.1 2.1 0 1 0 0-4.2 2.1 2.1 0 0 0 0 4.2Z"
+                      fill="currentColor"
+                      opacity=".9"
+                    />
+                    <path
+                      d="M5 9.2h3.2V20H5V9.2Z"
+                      fill="currentColor"
+                      opacity=".9"
+                    />
+                    <path
+                      d="M10.1 9.2h3.1v1.5c.5-.9 1.6-1.8 3.4-1.8 3.3 0 3.9 2.1 3.9 4.8V20h-3.2v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20h-3.2V9.2Z"
+                      fill="currentColor"
+                      opacity=".9"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <p class="connectHint muted" id="formHint" aria-live="polite"></p>
+            </form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> A S Impashree • Built with care.</p>
+        <a class="toTop" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
